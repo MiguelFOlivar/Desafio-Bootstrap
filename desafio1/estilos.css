@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: mulish-bold;
+  src: url(fonts/Mulish-Bold.ttf);
+}
+@font-face {
+  font-family: mulish-regular;
+  src: url(fonts/Mulish-Regular.ttf);
+}
+h1{
+  font-family: 'mulish-bold';
+  font-size: 4rem;
+  color: #3957f1;
+  padding-bottom: 2rem;
+}
+h2{
+  font-family: 'mulish-regular';
+  font-size: 28px;
+  color: #15163d;
+}
+.container-fluid {
+    margin-top: 50px;
+    border: none;
+}
+.card {
+  align-items: center;
+  border: none;
+}
+h2 {
+  padding-top: 1.5rem;
+}
